@@ -116,7 +116,6 @@
 }
 
 .header__content {
-  
   font-weight: bold;
   width: max(355px, 50%);
 }
@@ -208,7 +207,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   color: var(--title-color);
-  text-shadow: 2px 2px var(--title-decor-color);
+  text-shadow: 2px 2px #FF0070;
 }
 
 
