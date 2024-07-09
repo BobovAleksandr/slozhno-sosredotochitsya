@@ -4,8 +4,17 @@
 */
 
 :root {
-  --main-color: #000028;
-  --secondary-color: #F1B2CE;
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
   --accent-color: #FF0070;
+  --decor-color: #000028;
   --title-color: #DB00FF;
+  --title-decor-color: #FF0070;
+  --page-padding: 10px;
+}
+
+@media (width >= 768px) {
+  .page {
+    --page-padding: 20px;
+  }
 }
