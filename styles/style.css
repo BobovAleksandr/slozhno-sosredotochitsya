@@ -92,6 +92,7 @@
 
 .header__theme-menu-button:hover {
   outline: 1px solid currentColor;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:focus-visible {
