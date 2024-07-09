@@ -4,6 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: 'IBM Plex mono', sans-serif;
   font-size: 18px;
+  margin: 0 auto;
   line-height: 23.4px;
   background-color: var(--bg-color);
   padding-inline: var(--page-padding);
