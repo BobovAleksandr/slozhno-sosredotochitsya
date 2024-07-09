@@ -111,7 +111,7 @@
   justify-self: start;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-color);
-  text-shadow: 4px 4px var(--title-decor-color);
+  text-shadow: 4px 4px #FF0070;
   line-height: 82.5%;
 }
 
