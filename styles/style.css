@@ -7,11 +7,14 @@
   margin: 0 auto;
   line-height: 23.4px;
   background-color: var(--bg-color);
-  padding-inline: var(--page-padding);
   background-image: url(./../images/cover-image-dark.png);
   background-attachment: fixed;
   background-position: top center;
   background-size: cover;
+}
+
+.content-wrapper {
+  padding-inline: var(--page-padding);
 }
 
 .header {
@@ -33,7 +36,7 @@
   content: '';
   position: absolute;
   top: var(--page-padding);
-  right: 0;
+  right: var(--page-padding);
   width: 25px;
   aspect-ratio: 1 / 1;
   border-block-start: 1px solid var(--accent-color);
@@ -44,7 +47,7 @@
   content: '';
   position: absolute;
   bottom: var(--page-padding);
-  left: 0;
+  left: var(--page-padding);
   width: 25px;
   aspect-ratio: 1 / 1;
   border-block-end: 1px solid var(--accent-color);
@@ -53,7 +56,7 @@
 
 .header__decorate-element {
   position: absolute;
-  right: 27px;
+  right: calc(27px + var(--page-padding));
   top: var(--page-padding);
 }
 
