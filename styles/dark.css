@@ -5,6 +5,7 @@
   --decor-color: #000028;
   --title-color: #DB00FF;
   --title-decor-color: #FF0070;
+  --button-border-color: rgba(255, 0, 112, 0.4);
 }
 
 .page.theme_dark {
@@ -14,6 +15,7 @@
   --decor-color: #000028;
   --title-color: #DB00FF;
   --title-decor-color: #FF0070;
+  --button-border-color: rgba(255, 0, 112, 0.4);
 
   background-image: url(./../images/cover-image-dark.png);
 }

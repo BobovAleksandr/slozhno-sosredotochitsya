@@ -5,6 +5,7 @@
   --decor-color: #353430;
   --title-color: #FFC2E6;
   --title-decor-color: #FF8DCB;
+  --button-border-color: rgba(53, 52, 48, 0.4);
 }
    
 @media (prefers-color-scheme: light) {
@@ -15,6 +16,7 @@
     --decor-color: #353430;
     --title-color: #FFC2E6;
     --title-decor-color: #FF8DCB;
+    --button-border-color: rgba(53, 52, 48, 0.4);
   }
 
   .header__decorate-element {
